@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Open+Sans:400,600&display=swap" rel="stylesheet">
+
+</head>
+<body id="portfolio_body">
+
+    <!-- Hamburger Nav Menu -->
+
+    <div class="container-one-top">
+        <div id="fullname">
+            Tosh Velaga
+        </div>
+        <div id="nav-icon3">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <!-- First Container with 3 columns -->
+
+    <div class="container one">
+        <div class="row">
+            <div class="column-one">
+                <p class="app-title">
+                <section class="portfolio-experiment">
+                    <a href="https://chrome.google.com/webstore/detail/to-do-list/oonnhgbnbdanmicdkncfmkgclplohbln">
+                        <span class="text">To-Do-List App</span>
+                        <span class="line -right"></span>
+                        <span class="line -top"></span>
+                        <span class="line -left"></span>
+                        <span class="line -bottom"></span>
+                    </a>
+                </section>
+                </p>
+                <img id="to-do-list" src="/images/To-Do-List.png">
+                <p class="app-description">A simple yet effective To-Do-List web browser 
+                    extension that is compatible with Google Chrome and FireFox. 
+                    Made with CSS, HTML, Vanilla JS, jquery, and local Storage.
+                </p>
+                <p id="symbols">
+                    <img class="symbols" src="/images/html5(1).svg">
+                    <img class="symbols" src="/images/css(1).svg">
+                    <img class="symbols" src="/images/jslogo.svg">
+                </p>
+
+            </div>
+            <div class="column-two">
+                <p class="app-title">
+                <section class="portfolio-experiment">
+                    <a>
+                        <span class="text">Note Taking App</span>
+                        <span class="line -right"></span>
+                        <span class="line -top"></span>
+                        <span class="line -left"></span>
+                        <span class="line -bottom"></span>
+                    </a>
+                </section>
+                </p>
+                <img id="note-taking-app" src="/images/Note-Taking-App.png">
+                <p class="app-description">A simple yet effective Note Taking application 
+                    made with CSS, HTML, Vanilla JS, jquery, and local Storage.
+                </p>
+            </div>
+            <div class="column-three">
+                <p class="app-title">
+                <section class="portfolio-experiment">
+                    <a href="http://trudo.ai/">
+                        <span class="text">Trudo AI Startup</span>
+                        <span class="line -right"></span>
+                        <span class="line -top"></span>
+                        <span class="line -left"></span>
+                        <span class="line -bottom"></span>
+                    </a>
+                </section>
+                </p>
+                <img id="TRUDO" src="/images/TRUDO-image.png">
+                <p class="app-description">A simple yet effective Note Taking application 
+                    made with CSS, HTML, and Vanilla JS.
+                </p>
+            </div>
+        </div>
+    </div>
+
+<!-- The overlay with sliding canvas background -->
+
+<canvas id="c"></canvas>
+<div id="myNav" class="overlay">
+    <div id="overlay" class="overlay-content-hide overlay-content">
+        <a href="/home.html">Home</a>
+        <a href="/portfolio.html">Portfolio</a>
+        <a href="/about.html">Bio</a>
+        <a href="/contact.html">Contact</a>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/hamburger.js"></script>
+<script src="js/anime.js"></script>
+<script src="js/canvas.js"></script>
+
+</body>
+</html>
