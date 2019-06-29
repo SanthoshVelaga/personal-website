@@ -1,7 +1,6 @@
 const express = require('express');
 const app = express();
 const path = require('path');
-const router = express.Router();
 const exphbs  = require('express-handlebars');
 const PORT = process.env.PORT || 5000
 
@@ -27,8 +26,5 @@ app.get('/contact', function (req, res) {
     res.render('contact', { title: 'Contact'});
 });
 
-
-
 app.listen(PORT, () => console.log(`Listening on ${ PORT }`))
 
-console.log('Running at Port 3000');
