@@ -1,6 +1,9 @@
 {
   "name": "personal-website",
   "version": "1.0.0",
+  "engines": {
+    "node": "12.3.1"
+  },
   "description": "My personal website",
   "main": "index.js",
   "scripts": {
