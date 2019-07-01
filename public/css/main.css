@@ -1,5 +1,7 @@
 #home_body, #portfolio_body {
     background: #3a6ee8;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
 }
 
 #bio_body, #contact_body {
@@ -161,6 +163,45 @@
     .column.three.right {
         margin-right:2rem;
     }
+
+      /* //800px for tablets and phones. */
+
+  @media all and (max-width:700px) 
+  {
+      #home_body .row
+      {
+          display: block; 
+          float: none; 
+          width: 100%;
+      }
+
+      #shortbio
+      {
+       text-align: center;
+       letter-spacing: .01rem; 
+       display: inline-block;
+      }
+
+      #longbio
+      {
+      text-align: center;
+      letter-spacing: .01rem; 
+      display: inline-block;
+      margin-right: 2rem;
+      margin-left: 3rem;
+      }
+
+      .column.sm-3
+      {
+        padding-bottom: 2rem;
+      }
+
+      .container-three
+      {
+        margin-top: -3rem;
+      }
+
+  }
 
     /* Full Screen Overlay Navigation */
   
@@ -512,6 +553,18 @@
     color: black;
     transition: .5s;
   }
+
+  #rocket {
+    padding-top: 3rem;
+  }
+
+  #rocket_gif {
+    width: 10.5rem;
+    height: 10.5rem;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+  }
    
   @media screen and (max-width: 600px){
     .contact-form{
@@ -524,34 +577,64 @@
     .msg{
       width: 100%;
     }
+    #rocket
+    {
+        display: none; 
+    }
   }
   
-  #rocket {
-    padding-top: 3rem;
-  }
-
-  #rocket_gif {
-    width: 10.5rem;
-    height: 10.5rem;
-    display: block;
-    margin-left: auto; 
-    margin-right: auto;
-  }
-
   /* About Me Page  */
 
-  #spaceman {
-    margin-left: 18rem;
-    margin-right: 18rem;
+  #spaceman, #Khaled, #designer {
+    display: inline-block;
+    margin: 0 auto;
+    margin-bottom: -2rem;
+  }
+
+  #designer {
+    width: 20rem;
+    height: 20rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 
   .container-two-about-me p {
     color: white;
-    margin-left: 18rem;
-    margin-right: 18rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
     line-height: 2;
-    font-size: 1rem;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 600;
+    text-align: center;
   }
+
+  .container-two-about-me p:nth-of-type(3) {
+    margin-bottom: 8rem;
+  }
+
+  @media all and (max-width: 1199px) {
+    .container-two-about-me p {
+      margin-left: 15rem;
+      margin-right: 15rem;
+    }
+  } 
+  @media all and (max-width: 991px) {
+    .container-two-about-me p {
+      margin-left: 10rem;
+      margin-right: 10rem;
+    }
+  } 
+  @media all and (max-width: 768px) {
+    .container-two-about-me p {
+      margin-left: 6rem;
+      margin-right: 6rem;
+    }
+  }  
+  @media all and (max-width: 575px) {
+    .container-two-about-me p {
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+  } 
 
