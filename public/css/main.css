@@ -308,6 +308,21 @@
     overflow:auto;
   }
 
+  .column-one:hover, .column-two:hover, .column-three:hover {
+    outline: .2rem solid #abe6ec;
+  }
+
+  .row-portfolio {
+    display: block; 
+    float: none; 
+    width: 23rem;
+    margin: 0 auto;
+  }
+
+  .container-one-portfolio {
+    padding-top: 3rem;
+  }
+
   .app-title {
     text-align: center;
     color: #abe6ec;
@@ -355,6 +370,20 @@
     width: 17em;
     margin: 0 auto;
   }
+
+  #colorfulsquare {
+    height: 14em;
+    width: 14em;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+
+  #beatmaker {
+    height: 15em;
+    width: 15em;
+    margin: 0 auto;
+  }
+
 
   /* https://codepen.io/lukemeyrick/pen/apZOWm?editors=1100 */
   /* Links to Apps */
