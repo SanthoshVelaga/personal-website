@@ -588,25 +588,14 @@
     .msg{
       width: 100%;
     }
-    #rocket
-    {
-        display: none; 
-    }
   }
   
   /* About Me Page  */
 
-  #spaceman, #Khaled, #designer {
+  #Khaled {
     display: inline-block;
     margin: 0 auto;
     margin-bottom: -2rem;
-  }
-
-  #designer {
-    width: 20rem;
-    height: 20rem;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
   }
 
   .container-two-about-me p {
