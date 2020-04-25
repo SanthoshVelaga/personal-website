@@ -576,18 +576,6 @@
     color: black;
     transition: .5s;
   }
-
-  #rocket {
-    padding-top: 3rem;
-  }
-
-  #rocket_gif {
-    width: 10.5rem;
-    height: 10.5rem;
-    display: block;
-    margin-left: auto; 
-    margin-right: auto;
-  }
    
   @media screen and (max-width: 600px){
     .contact-form{
