@@ -124,7 +124,7 @@
 
     .container-three {
         padding-top:50px;
-        margin: 2 rem;
+        margin: 2rem;
     }
 
     #shortbio {
@@ -337,6 +337,33 @@
   .symbols {
     margin-right: .5rem;
     margin-left: .5rem;
+  }
+
+  .portfolioBtnContainer {
+    text-align: center;
+    margin: auto;
+    margin-top: 1.5rem;
+  }
+
+  .portfolioBtn {
+    background-color: #fff;
+    display: inline-block;
+    padding:0.5rem 1.8rem;
+    border:0.05rem solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-size: 1rem;
+    font-weight:300;
+    text-align:center;
+    transition: all 0.2s;
+  }
+
+  .portfolioBtn:hover {
+    color:#000000;
+    background-color:#f2e8e8;
   }
 
   #to-do-list {
