@@ -309,40 +309,23 @@
     padding-top: 3rem;
   }
 
-  .app-title {
-    text-align: center;
-    color: #abe6ec;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400; 
-    font-size: 1.8rem;
-  }
-
   .app-description {
     color: #f1f1f1;
-    margin: 1.3rem;
-    margin-left: 2.8rem;
-    margin-right: 2.8rem;
+    /* margin: 1.3rem; */
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
     font-size: 1rem;
     line-height: 1.6;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: .03rem;
     text-align: center;
-
-  }
-
-  #symbols {
-    margin: 1rem auto;
-  }
-
-  .symbols {
-    margin-right: .5rem;
-    margin-left: .5rem;
   }
 
   .portfolioBtnContainer {
     text-align: center;
     margin: auto;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
   }
 
   .portfolioBtn {
@@ -363,12 +346,12 @@
 
   .portfolioBtn:hover {
     color:#000000;
-    background-color:#f2e8e8;
+    background-color:#fbfbfb;
   }
 
-  #to-do-list {
-    height: 17em;
-    width: 17em;
+  #qrcode {
+    height: 15em;
+    width: 15em;
     margin: 0 auto;
   }
   
@@ -425,6 +408,7 @@
   }
   .portfolio-experiment a .text {
     font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
     transform: translate3d(0, 0.7em, 0);
     display: block;
     transition: transform 0.4s cubic-bezier(0.2, 0, 0, 1) 0.4s;
