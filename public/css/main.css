@@ -1,11 +1,7 @@
-#home_body, #portfolio_body {
+#home_body, #portfolio_body, #bio_body, #contact_body {
     background: #3a6ee8;
     overflow: scroll;
     -webkit-overflow-scrolling: touch;
-}
-
-#bio_body, #contact_body {
-  background: #abe6ec;
 }
 
 #fullname {
@@ -95,10 +91,6 @@
     top: 18px;
     width: 0%;
     left: 50%;
-  }
-
-  #bluebird {
-    transition: 1s ease-in-out;
   }
 
   /* Container Two Contents */
@@ -378,7 +370,6 @@
     margin: 0 auto;
   }
 
-
   /* https://codepen.io/lukemeyrick/pen/apZOWm?editors=1100 */
   /* Links to Apps */
 
@@ -511,9 +502,8 @@
     display: flex;
     max-width: 550px;
     margin: 0 auto;
-    background: rgba(0,0,0,0.8);
+    background: rgba(0,0,0,.8);
     padding: 30px;
-    border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
   }
    
@@ -521,6 +511,7 @@
     display: flex;
     flex-direction: column;
     margin-right: 4%;
+    color: #fff;
   }
    
   .input-fields,
@@ -588,64 +579,87 @@
     .msg{
       width: 100%;
     }
-    #rocket
-    {
-        display: none; 
-    }
   }
   
   /* About Me Page  */
 
-  #spaceman, #Khaled, #designer {
-    display: inline-block;
-    margin: 0 auto;
-    margin-bottom: -2rem;
+  .wrapper-two-about-me{
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    width: 100%;
+    /* padding: 0 20px; */
+    padding-top: 4rem;
   }
 
-  #designer {
-    width: 20rem;
-    height: 20rem;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-  }
-
-  .container-two-about-me p {
+  #about-me-p {
     color: white;
+    /* margin-top: 2rem; */
+    padding: 2rem;
     margin-left: 15rem;
     margin-right: 15rem;
     line-height: 2;
-    font-size: 1.3rem;
+    border: 2px dashed #fff;
+    border-radius: 5px;
+    font-size: 1rem;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    text-align: center;
+    /* font-weight: 600; */
+    text-align: left;
   }
 
-  .container-two-about-me p:nth-of-type(3) {
-    margin-bottom: 8rem;
+  #about-me-p > a {
+    color: white;
+    font-size: 1rem;
+  }
+
+  #about-me-p:hover {
+    border: 2px solid #c5ecfd;
+  }
+
+  #about-me-p:hover > .hideonhover {
+    display: none;
+  }
+
+  .hideonhover {
+    float: right;
+  }
+
+  #about-me-p:hover > a {
+    /* text-decoration: underline #c5ecfd; */
+    background-color: rgba(0, 251, 255, 0.3);
+    padding: 2px;
   }
 
   @media all and (max-width: 1199px) {
-    .container-two-about-me p {
+    #about-me-p {
       margin-left: 15rem;
       margin-right: 15rem;
     }
   } 
   @media all and (max-width: 991px) {
-    .container-two-about-me p {
+    #about-me-p {
       margin-left: 10rem;
       margin-right: 10rem;
     }
   } 
   @media all and (max-width: 768px) {
-    .container-two-about-me p {
+    #about-me-p {
       margin-left: 6rem;
       margin-right: 6rem;
     }
   }  
   @media all and (max-width: 575px) {
-    .container-two-about-me p {
+    #about-me-p {
       margin-left: 2rem;
       margin-right: 2rem;
+    }
+    .wrapper-two-about-me{
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100%;
+      /* padding: 0 20px; */
+      padding-top: 1rem;
     }
   } 
 
