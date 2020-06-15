@@ -374,8 +374,8 @@
     border-radius: 5px;
   }
 
-  #beatmaker {
-    height: 15em;
+  #NoteTakingApp {
+    height: auto;
     width: 15em;
     margin: 0 auto;
   }
