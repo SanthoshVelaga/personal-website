@@ -380,6 +380,12 @@
     margin: 0 auto;
   }
 
+  #mobileappsimulator {
+    height: auto;
+    width: 15em;
+    margin: 0 auto;
+  }
+
   /* https://codepen.io/lukemeyrick/pen/apZOWm?editors=1100 */
   /* Links to Apps */
 
