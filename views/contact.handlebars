@@ -14,29 +14,18 @@
 <div class="wrapper">
   <div class="contact-form">
     <div class="input-fields">
-
-    <!-- https://stackoverflow.com/questions/7449767/how-do-i-send-an-html-form-in-an-email-not-just-mailto -->
-    <!-- Contact form sends to toshvelaga@gmail.com -->
-
-      <form class="gform pure-form pure-form-stacked" method="POST" data-email="toshvelaga@gmail.com"
-      action="https://script.google.com/macros/s/AKfycbz6RbvVPCRmAP44CWJaQRFLcQaePXU5mn5QUFrCKw/exec">
-
-      <input name="name" type="text" class="input" placeholder="Name">
-      <input name="email" type="email" class="input" placeholder="Email Address">
-      <input name="phone" type="text" class="input" placeholder="Phone">
-      <input name="subject" type="text" class="input" placeholder="Subject">
-    </div>
-    <div class="msg">
-      <textarea name="message" placeholder="Message"></textarea>
-      <input type="submit" value="Send" class="btn">
-    </div>
-
+    <form target="_blank" action="https://formsubmit.co/toshvelaga@gmail.com" method="POST">
+        <input name="name" type="text" class="input" placeholder="Name">
+        <input name="email" type="email" class="input" placeholder="Email Address">
+        <input name="phone" type="text" class="input" placeholder="Phone">
+        <input name="subject" type="text" class="input" placeholder="Subject">
+      </div>
+      <div class="msg">
+        <textarea name="message" placeholder="Message"></textarea>
+        <input type="submit" value="Send" class="btn">
+      </div>
     </form>
   </div>
 </div>	
 
-<!-- https://ui-ex.com/explore/rocket-transparent-animated-gif/ -->
 
-<!-- script that does not show JSON after form is submitted to email -->
-
-<script data-cfasync="false" type="text/javascript" src="/js/form-submission-handler.js"></script>
