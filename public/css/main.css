@@ -385,7 +385,7 @@ canvas {
 }
 
 #qrcode {
-	height: 15em;
+	/* height: 15em; */
 	width: 15em;
 	margin: 0 auto;
 }

@@ -1,3 +1,5 @@
+// should i change to https://codepen.io/P1N2O/pen/pyBNzX  ????
+
 var c = document.getElementById("c");
 var navlink = document.getElementsByClassName("navlink");
 var ctx = c.getContext("2d");
