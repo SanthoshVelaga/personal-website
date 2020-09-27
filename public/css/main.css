@@ -2,8 +2,10 @@
 #portfolio_body,
 #bio_body,
 #contact_body {
-	background: #3a6ee8;
-	overflow: scroll;
+	background: linear-gradient(45deg, rgba(0, 0, 255, 0.728), purple);
+	background-attachment: fixed;
+	/* background: #3a6ee8; */
+	/* overflow: scroll; */
 	-webkit-overflow-scrolling: touch;
 }
 
@@ -318,6 +320,7 @@ canvas {
 .column-two:hover,
 .column-three:hover {
 	outline: 0.2rem solid #abe6ec;
+	color: #abe6ec;
 }
 
 .row-portfolio {
@@ -329,6 +332,16 @@ canvas {
 
 .container-one-portfolio {
 	padding-top: 3rem;
+}
+
+.app-title {
+	color: #f1f1f1;
+	font-size: 1.3rem;
+	font-family: "Montserrat", sans-serif;
+	letter-spacing: 0.03rem;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .app-description {
@@ -416,7 +429,7 @@ canvas {
 /* https://codepen.io/lukemeyrick/pen/apZOWm?editors=1100 */
 /* Links to Apps */
 
-.portfolio-experiment,
+/* .portfolio-experiment,
 .scene {
 	display: flex;
 	flex-wrap: wrap;
@@ -535,7 +548,7 @@ canvas {
 .portfolio-experiment a:active .line.-bottom {
 	transition: transform 0.5s cubic-bezier(0, 0.53, 0.29, 1) 0.56s;
 	transform-origin: left;
-}
+} */
 
 /* Contact Form Styling */
 
