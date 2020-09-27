@@ -188,14 +188,6 @@
 	}
 }
 
-/* Full Screen Overlay Navigation */
-
-/* #myNav {
-	background-color: red;
-	z-index: 3;
-	height: 100%;
-} */
-
 .overlay {
 	height: 100vh;
 	width: 0;
@@ -445,9 +437,6 @@ a:link {
 	width: 15em;
 	margin: 0 auto;
 }
-
-/* https://codepen.io/lukemeyrick/pen/apZOWm?editors=1100 */
-/* Links to Apps */
 
 /* Contact Form Styling */
 
