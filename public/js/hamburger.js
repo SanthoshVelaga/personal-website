@@ -1,38 +1,29 @@
-$(document).ready(function(){
-	$('#nav-icon3').click(function(){
-    openNav();
-    addOverlay();
+$(document).ready(function () {
+	$("#nav-icon3").click(function () {
+		openNav();
+		addOverlay();
 
-		if (this.matches('.open')) {
-      closeNav();
-      removeOverlay()
+		if (this.matches(".open")) {
+			closeNav();
+			removeOverlay();
 		}
 
-		$(this).toggleClass('open');
+		$(this).toggleClass("open");
 	});
 });
 
-function openNav(){
-	document.getElementById("c").style.width = "100%";
+function openNav() {
+	document.getElementById("myNav").style.width = "100%";
 }
 
-function closeNav(){
-	document.getElementById("c").style.width = "0%";
+function closeNav() {
+	document.getElementById("myNav").style.width = "0%";
 }
 
-function addOverlay(){
-  $(overlay).removeClass('overlay-content-hide');
+function addOverlay() {
+	$(overlay).removeClass("overlay-content-hide");
 }
 
-function removeOverlay(){
-  $(overlay).addClass('overlay-content-hide');
+function removeOverlay() {
+	$(overlay).addClass("overlay-content-hide");
 }
-
-
-
-
-
-
-
-
-
