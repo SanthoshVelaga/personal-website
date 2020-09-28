@@ -556,7 +556,7 @@ a:link {
 }
 
 #about-me-p {
-	color: white;
+	color: #7e7e7e;
 	/* margin-top: 2rem; */
 	padding: 2rem;
 	margin-left: 15rem;
@@ -576,7 +576,7 @@ a:link {
 }
 
 #about-me-p:hover {
-	border: 2px solid #c5ecfd;
+	border: 2px solid #f2f2c5;
 }
 
 #about-me-p:hover > .hideonhover {
@@ -589,8 +589,9 @@ a:link {
 
 #about-me-p:hover > a {
 	/* text-decoration: underline #c5ecfd; */
-	background-color: rgba(0, 251, 255, 0.3);
-	padding: 2px;
+	/* background-color: rgba(0, 251, 255, 0.3); */
+	/* padding: 2px; */
+	color: #f2f2c5;
 }
 
 @media all and (max-width: 1199px) {
