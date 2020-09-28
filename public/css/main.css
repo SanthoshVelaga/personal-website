@@ -2,7 +2,7 @@
 #portfolio_body,
 #bio_body,
 #contact_body {
-	background: linear-gradient(45deg, rgba(0, 0, 255, 0.728), purple);
+	background: #121212;
 	background-attachment: fixed;
 	/* background: #3a6ee8; */
 	/* overflow: scroll; */
@@ -10,7 +10,7 @@
 }
 
 #fullname {
-	color: white;
+	color: #03dac6;
 	float: left;
 	font-family: "Open Sans", sans-serif;
 	font-size: 1.4em;
@@ -46,7 +46,7 @@
 	position: absolute;
 	height: 4px;
 	width: 100%;
-	background: white;
+	background: #03dac6;
 	border-radius: 9px;
 	opacity: 1;
 	left: 0;
@@ -109,7 +109,7 @@
 	font-family: "Montserrat", sans-serif;
 	font-weight: 600;
 	text-align: center;
-	color: white;
+	color: #7e7e7e;
 }
 
 .row {
@@ -134,14 +134,14 @@
 }
 
 #shortbio {
-	color: white;
+	color: #03dac6;
 	font-family: "Montserrat", sans-serif;
 	font-size: 2.2em;
 	font-weight: bold;
 }
 
 #longbio {
-	color: white;
+	color: #7e7e7e;
 	font-family: "Open Sans", sans-serif;
 	line-height: 2;
 }
@@ -169,14 +169,25 @@
 		text-align: center;
 		letter-spacing: 0.01rem;
 		display: inline-block;
+		margin-right: 0;
+		margin-left: 0;
 	}
 
 	#longbio {
 		text-align: center;
 		letter-spacing: 0.01rem;
 		display: inline-block;
-		margin-right: 2rem;
-		margin-left: 3rem;
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	.column.three.left {
+		margin-right: 0rem;
+		margin-left: 0rem;
+	}
+
+	.column.three.right {
+		margin-right: 0rem;
 	}
 
 	.column.sm-3 {
