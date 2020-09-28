@@ -348,9 +348,10 @@ a:link {
 
 .app-title {
 	color: #f1f1f1;
-	font-size: 1.3rem;
+	font-size: 1.2rem;
 	font-family: "Montserrat", sans-serif;
-	letter-spacing: 0.03rem;
+	font-style: italic;
+	/* letter-spacing: 0.03rem; */
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 10px;
