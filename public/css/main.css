@@ -342,8 +342,7 @@ a:link {
 .column-one:hover,
 .column-two:hover,
 .column-three:hover {
-	outline: 0.2rem solid #abe6ec;
-	color: #abe6ec;
+	outline: 0.2rem solid #03dac6;
 }
 
 .row-portfolio {
@@ -358,10 +357,9 @@ a:link {
 }
 
 .app-title {
-	color: #f1f1f1;
+	color: #7e7e7e;
 	font-size: 1.2rem;
 	font-family: "Montserrat", sans-serif;
-	font-style: italic;
 	/* letter-spacing: 0.03rem; */
 	text-align: center;
 	padding-top: 10px;
@@ -369,7 +367,7 @@ a:link {
 }
 
 .app-description {
-	color: #f1f1f1;
+	color: #7e7e7e;
 	/* margin: 1.3rem; */
 	margin-left: 5%;
 	margin-right: 5%;
@@ -432,10 +430,8 @@ a:link {
 }
 
 #colorfulsquare {
-	height: 14em;
-	width: 14em;
+	width: 17em;
 	margin: 0 auto;
-	border-radius: 5px;
 }
 
 #NoteTakingApp {
