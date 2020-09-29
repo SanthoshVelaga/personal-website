@@ -206,40 +206,26 @@
 	z-index: 1;
 	top: 0;
 	left: 0;
-	background: linear-gradient(45deg, blue, red, orange);
+	background: #121212;
+	opacity: 0.98;
 	background-size: 400% 400%;
-	animation: gradient 20s ease infinite;
 	transition: 0.5s;
-	padding-top: 60px;
 	text-align: center;
 	overflow-y: hidden;
-}
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
 }
 
 .overlay-content {
 	position: absolute;
 	z-index: 1;
-	color: white;
+	/* color: #03dac6; */
 	top: 25%;
 	width: 100%;
 	text-align: center;
-	margin-top: 2rem;
-	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-	-moz-animation: fadein 2s; /* Firefox < 16 */
-	-ms-animation: fadein 2s; /* Internet Explorer */
-	-o-animation: fadein 2s; /* Opera < 12.1 */
-	animation: fadein 2s;
+	-webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 3s; /* Firefox < 16 */
+	-ms-animation: fadein 3s; /* Internet Explorer */
+	-o-animation: fadein 3s; /* Opera < 12.1 */
+	animation: fadein 3s;
 }
 
 @keyframes fadein {
@@ -312,14 +298,14 @@ a:link {
 	padding: 0.5rem;
 	text-decoration: none;
 	font-size: 4rem;
-	color: white;
+	color: #f1f1f1;
 	display: block;
 	transition: 0.3s;
 }
 
 .overlay a:hover,
 .overlay a:focus {
-	color: #f1f1f1;
+	color: #03dac6;
 }
 
 /* Portfolio Page First Container */
