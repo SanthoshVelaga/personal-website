@@ -4,8 +4,6 @@
 #contact_body {
 	background: #121212;
 	background-attachment: fixed;
-	/* background: #3a6ee8; */
-	/* overflow: scroll; */
 	-webkit-overflow-scrolling: touch;
 }
 
@@ -217,7 +215,6 @@
 .overlay-content {
 	position: absolute;
 	z-index: 1;
-	/* color: #03dac6; */
 	top: 25%;
 	width: 100%;
 	text-align: center;
@@ -346,7 +343,6 @@ a:link {
 	color: #7e7e7e;
 	font-size: 1.2rem;
 	font-family: "Montserrat", sans-serif;
-	/* letter-spacing: 0.03rem; */
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -354,7 +350,6 @@ a:link {
 
 .app-description {
 	color: #7e7e7e;
-	/* margin: 1.3rem; */
 	margin-left: 5%;
 	margin-right: 5%;
 	width: 90%;
@@ -393,13 +388,11 @@ a:link {
 }
 
 #qrcode {
-	/* height: 15em; */
 	width: 15em;
 	margin: 0 auto;
 }
 
 #girlwithmask {
-	/* height: 17rem; */
 	width: 17em;
 	margin: 0 auto;
 }
@@ -410,7 +403,6 @@ a:link {
 }
 
 #TRUDO {
-	/* height: 22rem; */
 	width: 17em;
 	margin: 0 auto;
 }
@@ -533,13 +525,11 @@ a:link {
 	top: 40%;
 	transform: translateY(-50%);
 	width: 100%;
-	/* padding: 0 20px; */
 	padding-top: 4rem;
 }
 
 #about-me-p {
 	color: #7e7e7e;
-	/* margin-top: 2rem; */
 	padding: 2rem;
 	margin-left: 15rem;
 	margin-right: 15rem;
@@ -570,9 +560,6 @@ a:link {
 }
 
 #about-me-p:hover > a {
-	/* text-decoration: underline #c5ecfd; */
-	/* background-color: rgba(0, 251, 255, 0.3); */
-	/* padding: 2px; */
 	color: #f2f2c5;
 }
 
@@ -604,7 +591,6 @@ a:link {
 		top: 50%;
 		transform: translateY(-50%);
 		width: 100%;
-		/* padding: 0 20px; */
 		padding-top: 1rem;
 	}
 }
