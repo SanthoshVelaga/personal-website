@@ -118,6 +118,10 @@
 	color: #7e7e7e;
 }
 
+.column.sm-3 img {
+	text-align: center;
+}
+
 .row {
 	display: flex;
 	flex-direction: row;
