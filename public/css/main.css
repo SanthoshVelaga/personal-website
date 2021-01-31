@@ -119,7 +119,8 @@
 }
 
 .column.sm-3 img {
-	text-align: center;
+	display: block;
+	margin: 0 auto;
 }
 
 .row {
