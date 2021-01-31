@@ -7,7 +7,10 @@
 	-webkit-overflow-scrolling: touch;
 }
 
-#phone {
+#phone,
+#reactlogo,
+#bluebird,
+#clock {
 	width: 100px;
 	height: 100px;
 }
