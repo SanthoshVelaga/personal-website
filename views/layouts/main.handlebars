@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{title}}</title>
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Open+Sans:400,600&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Open+Sans:400,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
 </head>
+
 <body>
 
     <!-- Contains my name as well as hamburger icon -->
@@ -29,20 +33,18 @@
 
     <!-- The overlay with sliding canvas background -->
 
-    <canvas id="c"></canvas>
     <div id="myNav" class="overlay">
         <div id="overlay" class="overlay-content-hide overlay-content">
-            <a href="/">Home</a>
-            <a href="/portfolio">Portfolio</a>
-            <a href="/bio">Bio</a>
-            <a href="/contact">Contact</a>
+            <a class="navlink" href="/">Home</a>
+            <a class="navlink" href="/portfolio">Portfolio</a>
+            <a class="navlink" href="/bio">Bio</a>
+            <a class="navlink" href="/contact">Contact</a>
         </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/hamburger.js"></script>
-    <script src="js/anime.js"></script>
-    <script src="js/canvas.js"></script>
 
 </body>
+
 </html>
